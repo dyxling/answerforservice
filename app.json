@@ -1,0 +1,14 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/test/test",
+    "pages/match/match"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#F5DEB3",
+    "navigationBarTitleText": "王者服务",
+    "navigationBarTextStyle": "black"
+  }
+}

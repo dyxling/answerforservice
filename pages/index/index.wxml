@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='person-infor'>
+    <image src='{{userInfo.avatarUrl}}' class='avatarUrl'></image>
+    <view style='text-align:center;'>
+      <view>{{userInfo.nickName}}</view>
+      <view>总分:{{score}}</view>
+    </view>
+    <image src='../img/qr.svg' class='qr' bindtap=''></image> 
+  </view>
+
+  <view class='choose' bindtap='beginAnswer'>
+    <image src='../img/ex.png'></image>
+    <!--<view>个人练习</view>-->
+  </view>
+  <view class='choose' bindtap=''>
+    <image src='../img/fgt.jpg'></image>
+    <!--<view>发起对战</view>-->
+  </view>
+  <view class='choose' bindtap=''>
+    <image src='../img/rk.jpg'></image>
+    <!--<view>排名信息</view>-->
+  </view>
+</view>
