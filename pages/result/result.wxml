@@ -1,2 +1,0 @@
-<!--pages/result/result.wxml-->
-<text>一共错了{{wrong}}条</text>
